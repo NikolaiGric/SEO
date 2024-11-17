@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Простой Сайт</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">Мой Сайт</div>
+    <nav>
+      <ul>
+        <li><a href="#home">Главная</a></li>
+        <li><a href="#about">О нас</a></li>
+        <li><a href="#services">Услуги</a></li>
+        <li><a href="#team">Наша команда</a></li>
+        <li><a href="#contact">Контакты</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="section">
+      <h1>Добро пожаловать на наш сайт</h1>
+      <p>Здесь вы найдете информацию о наших услугах и нашей команде.</p>
+      <button id="learn-more">Узнать больше</button>
+    </section>
+
+    <section id="about" class="section">
+      <h2>О нас</h2>
+      <p>
+        Мы небольшая, но энергичная команда специалистов, которая занимается разработкой
+        современных веб-решений. Наш опыт включает проекты для малых и крупных компаний.
+      </p>
+      <p>
+        Наша миссия — помогать бизнесу расти и развиваться, создавая стильные, удобные и
+        эффективные сайты.
+      </p>
+    </section>
+
+    <section id="services" class="section">
+      <h2>Наши услуги</h2>
+      <ul>
+        <li>Создание сайтов "под ключ"</li>
+        <li>Редизайн старых сайтов</li>
+        <li>Настройка SEO для повышения видимости в поисковиках</li>
+        <li>Разработка интернет-магазинов</li>
+        <li>Техническая поддержка и обновление сайтов</li>
+      </ul>
+    </section>
+
+    <section id="team" class="section">
+      <h2>Наша команда</h2>
+      <div class="team-container">
+        <div class="team-member">
+          <img src="https://via.placeholder.com/150" alt="Команда 1">
+          <h3>Иван Иванов</h3>
+          <p>Ведущий разработчик</p>
+        </div>
+        <div class="team-member">
+          <img src="https://via.placeholder.com/150" alt="Команда 2">
+          <h3>Мария Смирнова</h3>
+          <p>UI/UX дизайнер</p>
+        </div>
+        <div class="team-member">
+          <img src="https://via.placeholder.com/150" alt="Команда 3">
+          <h3>Алексей Петров</h3>
+          <p>SEO-специалист</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <h2>Контакты</h2>
+      <form id="contact-form">
+        <input type="text" id="name" placeholder="Ваше имя" required>
+        <input type="email" id="email" placeholder="Ваш email" required>
+        <textarea id="message" placeholder="Ваше сообщение" required></textarea>
+        <button type="submit">Отправить</button>
+      </form>
+      <p>Или свяжитесь с нами по телефону: <strong>+7 (123) 456-78-90</strong></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Мой Сайт. Все права защищены.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
